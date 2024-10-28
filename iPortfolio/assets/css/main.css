@@ -147,7 +147,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .header {
-  background: linear-gradient(90deg, #182848, #4b6cb7) !important;
+  background: linear-gradient(90deg, #182848, #8ec5fc) !important;
 }
 .header {
   color: var(--default-color);
@@ -629,6 +629,18 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#about,
+#resume,
+#portfolio,
+#services,
+#stats,
+#skills,
+#testimonials,
+#footer {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
