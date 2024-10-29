@@ -1,3 +1,6 @@
 .h2 {
   margin-top: 800px;
 }
+section#portfolio {
+  background-color: white !important;
+}
