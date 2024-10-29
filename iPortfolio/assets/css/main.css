@@ -147,8 +147,9 @@ h6 {
 --------------------------------------------------------------*/
 
 .header {
-  background: linear-gradient(90deg, #182848, #8ec5fc) !important;
+  background-color: transparent !important;
 }
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -637,9 +638,14 @@ section,
 #stats,
 #skills,
 #contact,
-#footer {
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+#footer,
+#hero {
+  background: linear-gradient(
+    111.1deg,
+    rgb(0, 40, 70) -4.8%,
+    rgb(255, 115, 115) 82.7%,
+    rgb(255, 175, 123) 97.2%
+  );
 }
 \ .about .content h2 {
   font-weight: 700;
