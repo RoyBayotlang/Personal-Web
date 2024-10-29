@@ -11,6 +11,7 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
 :root {
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
@@ -147,8 +148,27 @@ h6 {
 --------------------------------------------------------------*/
 
 .header {
-  background: linear-gradient(90deg, #182848, #8ec5fc) !important;
+  padding: 10px; /* Reduce padding */
 }
+
+.header .profile-img img {
+  width: 90px; /* Smaller profile image */
+  height: 90px; /* Adjust height accordingly */
+}
+
+.header .social-links a {
+  width: 35px; /* Smaller social icons */
+  height: 35px;
+}
+
+.header {
+  background-color: transparent !important;
+}
+
+.header {
+  background-color: transparent;
+}
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -629,6 +649,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+/*
 
 #about,
 #resume,
@@ -640,8 +661,9 @@ section,
 #footer {
   background-color: #8ec5fc;
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
-}
-\ .about .content h2 {
+} */
+
+.about .content h2 {
   font-weight: 700;
   font-size: 24px;
 }
