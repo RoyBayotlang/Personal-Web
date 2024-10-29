@@ -1,0 +1,7 @@
+body {
+  background-image: url("assets/img/hero-bg.jpg") !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  position: relative !important;
+}
